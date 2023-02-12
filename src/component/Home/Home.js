@@ -6,6 +6,7 @@ import { BusinessSummary } from "./BusinessSummary";
 import Ban2 from "./Ban2";
 import Banv from "./Banv";
 import Cservice from "./Cservice";
+import Subscribe from "./Subscribe";
 
 export const Home = () => {
   return (
@@ -14,8 +15,11 @@ export const Home = () => {
         <title>Home | Annotation AI</title>
       </Helmet>
       <Banner />
+
       <Banv></Banv>
+
       <VideoAnnoter></VideoAnnoter>
+      <Subscribe></Subscribe>
       <ImageAnnoter></ImageAnnoter>
       <Cservice></Cservice>
       <Ban2></Ban2>

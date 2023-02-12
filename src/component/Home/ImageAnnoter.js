@@ -33,7 +33,6 @@ export default class ImageAnnoter extends Component {
   render() {
     return (
       <>
-        <div className="divider bg-base-300  "></div>
         <section className=" bg-neutral my-16 items-center text-center ">
           <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r hover:from-purple-400 hover:to-pink-600 p-2 hover:bg-gradient-to-l from-blue-500 to-purple-500">
             Try Our image Annotation Tools for free
